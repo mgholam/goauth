@@ -6,6 +6,6 @@ type Config struct {
 	CallbackURL  string
 }
 
-type OAuthAccessResponse struct {
+type oAuthAccessResponse struct {
 	AccessToken string `json:"access_token"`
 }

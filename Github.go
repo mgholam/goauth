@@ -40,8 +40,8 @@ func (c *GitHub) Authenticate(r *http.Request) (string, error) {
 		return "", err
 	}
 
-	// Parse the request body into the `OAuthAccessResponse` struct
-	var t OAuthAccessResponse
+	// Parse the request body into the `oAuthAccessResponse` struct
+	var t oAuthAccessResponse
 	if err := json.NewDecoder(res.Body).Decode(&t); err != nil {
 		return "", err
 	}
