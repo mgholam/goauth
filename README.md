@@ -1,5 +1,8 @@
 # goauth
-A no dependancy oauth client. 
+A no dependency oAuth client for :
+
+- github
+- google
 
 
 ## Sample code
@@ -44,5 +47,4 @@ func main() {
 	http.ListenAndServe(":3000", nil)
 } 
 ```
-
 
